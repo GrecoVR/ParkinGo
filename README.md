@@ -4,20 +4,20 @@ ParkinGO es una aplicación que permite a los usuarios **registrar, reservar y g
 
 ---
 
-## 🧠 Funcionalidades principales
+## 🧠 Funcionalidades Principales
 
-✔️ Registro e inicio de sesión de usuarios  
-✔️ Consulta de disponibilidad de espacios  
-✔️ Realización y cancelación de reservas  
+✔️ Registro e inicio de sesión de Usuarios  
+✔️ Consulta de disponibilidad de espacios de Parqueo  
+✔️ Poder Realizar y Cancelar Reservas  
 ✔️ Procesamiento de pagos  
 ✔️ Generación y validación de códigos  
-✔️ Administración de reservas por parte del personal autorizado
+✔️ Administración de reservas por parte del Personal Autorizado
 
 ---
 
 ## 📲 Actores del sistema
 
-- 👤 **Usuario**: realiza reservas, consulta disponibilidad, accede con código.
-- 🛠️ **Administrador**: gestiona reservas, verifica accesos.
-- 🛂 **Sistema de control de acceso**: valida los codigos de reserva en la entrada.
+- 👤 **Usuario**: Realiza reservas, Consulta disponibilidad, Accede con código de reserva.
+- 🛠️ **Administrador**: Gestiona reservas, Verifica accesos.
+- 🛂 **Sistema de control de acceso**: Valida los códigos de Reserva en la entrada.
 
