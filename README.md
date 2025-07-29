@@ -1,6 +1,6 @@
 # 🚗 ParkinGO – Sistema de Reservas de Parqueo
 
-ParkinGO es una aplicación que permite a los usuarios **registrar, reservar y gestionar espacios de parqueo** de forma eficiente, rápida y segura. Está diseñada para facilitar el acceso controlado a estacionamientos mediante el uso de códigos QR y validación digital.
+ParkinGO es una aplicación que permite a los usuarios **registrar, reservar y gestionar espacios de parqueo** de forma eficiente, rápida y segura. Está diseñada para facilitar el acceso controlado a estacionamientos mediante el uso de códigos y validación digital.
 
 ---
 
@@ -10,7 +10,7 @@ ParkinGO es una aplicación que permite a los usuarios **registrar, reservar y g
 ✔️ Consulta de disponibilidad de espacios  
 ✔️ Realización y cancelación de reservas  
 ✔️ Procesamiento de pagos  
-✔️ Generación y validación de códigos QR  
+✔️ Generación y validación de códigos  
 ✔️ Administración de reservas por parte del personal autorizado
 
 ---
