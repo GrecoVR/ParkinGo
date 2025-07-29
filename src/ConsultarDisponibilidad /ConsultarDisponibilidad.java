@@ -11,7 +11,7 @@ public class ConsultarDisponibilidad {
     }
 
     public void buscarDisponibilidad() {
-        resultados = EspacioDAO.obtenerDisponibles(fecha, tipoEspacio);
+        resultados = ListaParqueo.obtenerDisponibles(fecha, tipoParqueo);
     }
 
     public List<Espacio> getResultados() {
@@ -26,7 +26,7 @@ public class ConsultarDisponibilidad {
         return tipoParqueo;
     }
 
-    public void setFecha(LocalDate fecha) {
+    public void setFecha(Date fecha) {
         this.fecha = fecha;
     }
 
