@@ -1,23 +1,19 @@
 public class ConsultarDisponibilidad {
 
     private LocalDate fecha;
-    private String tipoEspacio; // Ej: "Auto", "Moto", "Discapacitado"
-    private List<Espacio> resultados;
+    private String tipoParqueo;
+    private List<Parqueo> resultados;
 
-    // Constructor
-    public ConsultarDisponibilidad(LocalDate fecha, String tipoEspacio) {
+    public ConsultarDisponibilidad(LocalDate fecha, String tipoParqueo) {
         this.fecha = fecha;
-        this.tipoEspacio = tipoEspacio;
+        this.tipoParqueo = tipoParqueo;
         this.resultados = new ArrayList<>();
     }
 
-    // Método principal que hace la búsqueda
     public void buscarDisponibilidad() {
-        // Simulación de lógica: consulta en base de datos o API
         resultados = EspacioDAO.obtenerDisponibles(fecha, tipoEspacio);
     }
 
-    // Getters
     public List<Espacio> getResultados() {
         return resultados;
     }
@@ -26,16 +22,15 @@ public class ConsultarDisponibilidad {
         return fecha;
     }
 
-    public String getTipoEspacio() {
-        return tipoEspacio;
+    public String getTipoParqueo() {
+        return tipoParqueo;
     }
 
-    // Setter opcional si se quiere reutilizar la instancia
     public void setFecha(LocalDate fecha) {
         this.fecha = fecha;
     }
 
-    public void setTipoEspacio(String tipoEspacio) {
-        this.tipoEspacio = tipoEspacio;
+    public void setTipoParqueo(String tipoParqueo) {
+        this.tipoParqueo = tipoParqueo;
     }
 }
